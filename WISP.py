@@ -38,4 +38,4 @@ fig.update_layout(
     )
 )
 
-fig.show()
+fig.write_html("wisp-scholars-map.html", include_plotlyjs="cdn")
